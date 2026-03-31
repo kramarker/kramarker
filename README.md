@@ -37,4 +37,6 @@ Python • NumPy • Pandas • Statistical Modeling • Monte Carlo Simulation 
 
 ## Links
 
-LinkedIn: https://www.linkedin.com/in/YOUR-LINK
+LinkedIn: www.linkedin.com/in/-markantar
+
+
