@@ -1,7 +1,7 @@
 # Mark Antar
 
 Computer Engineering & Mathematics @ UIUC
-Minor in Statistics
+Minor in Business
 
 ## About Me
 
