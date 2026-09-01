@@ -1,6 +1,6 @@
 # Mark Antar
 
-Computer Engineering & Mathematics @ UIUC
+Computer Engineering & Applied Mathematics @ UIUC
 Minor in Business
 
 ## About Me
