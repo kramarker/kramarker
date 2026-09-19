@@ -1,11 +1,11 @@
 # Mark Antar
 
 Computer Engineering & Applied Mathematics @ UIUC
-Minor in Business
+Minors in Business and Statistics
 
 ## About Me
 
-I build software and quantitative finance projects focused on analyzing performance, risk, and variability in financial systems.
+I’m a Computer Engineering and Applied Mathematics student at UIUC. I’m interested in software engineering, systems, and quantitative research, and I currently work primarily with Python, C++, and SystemVerilog. I build software across quantitative finance, systems programming, and digital hardware, from Python risk and backtesting tools to C++ applications and SystemVerilog FPGA designs.
 
 ## Projects
 
