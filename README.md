@@ -1,46 +1,30 @@
 # Mark Antar
 
-Computer Engineering & Applied Mathematics @ UIUC
-Minors in Business and Statistics
+Computer Engineering and Mathematics (Applied Mathematics) at the University of Illinois Urbana-Champaign · Business minor
 
-## About Me
-
-I’m a Computer Engineering and Applied Mathematics student at UIUC. I’m interested in software engineering, systems, and quantitative research, and I currently work primarily with Python, C++, and SystemVerilog. I build software across quantitative finance, systems programming, and digital hardware, from Python risk and backtesting tools to C++ applications and SystemVerilog FPGA designs.
+I build quantitative research tools in Python and performance-focused systems in C++, with FPGA work in
+SystemVerilog on the side. Interested in quantitative research, trading systems, and software engineering.
 
 ## Projects
 
-### Quantitative Trading Backtester
+### [lob-engine](https://github.com/kramarker/lob-engine) · C++20
+Limit order book matching engine with price-time priority, integer-tick prices, partial fills, cancels, and
+market / IOC / FOK orders. 26 GoogleTest cases run under ASan/UBSan in CI. Throughput benchmarks (Google
+Benchmark) and per-operation latency percentiles from a TSC-based timing harness.
 
-Built a Python backtester for moving-average crossover, RSI, and Bollinger Band strategies across SPY, QQQ, and AAPL.
+### [quant-trading-backtester](https://github.com/kramarker/quant-trading-backtester) · Python
+Backtester for MA crossover, RSI, and Bollinger strategies on SPY, QQQ, and AAPL with next-day execution and
+transaction costs. Includes walk-forward validation, a cross-asset generalization study with a short paper, and
+a 28-test pytest suite.
 
-• Added train/test evaluation, equity-curve visualizations, Sharpe ratio, drawdown, and trade statistics
-• Compared performance across assets to study robustness and overfitting
-• Documented the methodology and findings in a research-style report
+### [quant-risk-simulator](https://github.com/kramarker/quant-risk-simulator) · Python
+Monte Carlo engine comparing one-year VaR, CVaR, and drawdown distributions under Gaussian, Student-t,
+stressed-volatility, and SPY block-bootstrap return models (5,000 paths per scenario).
 
-🔗 https://github.com/kramarker/quant-trading-backtester
+## Tools
 
----
+Python (pandas, NumPy, matplotlib, pytest) · C++20 (CMake, GoogleTest, Google Benchmark) · C · SystemVerilog · MATLAB · Git · Linux
 
-### Monte Carlo Risk Simulator
+## Contact
 
-Built a Python Monte Carlo engine to compare portfolio outcomes under Gaussian, Student-t, stressed-volatility, and historical-bootstrap return assumptions.
-
-• Simulated thousands of potential equity paths using SPY return data
-• Calculated VaR, CVaR, probability of loss, drawdowns, and Sharpe, Sortino, and Calmar ratios
-• Created percentile cones, simulated equity paths, and cross-scenario comparisons to examine sensitivity to model assumptions
-
-🔗 https://github.com/kramarker/quant-risk-simulator
-
----
-
-## Skills
-
-Python • NumPy • Pandas • Statistical Modeling • Monte Carlo Simulation • Data Analysis • Financial Modeling
-
----
-
-## Links
-
-LinkedIn: www.linkedin.com/in/-markantar
-
-
+[LinkedIn](https://www.linkedin.com/in/-markantar) · markantar30@gmail.com
